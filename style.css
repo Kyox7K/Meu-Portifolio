@@ -1,0 +1,71 @@
+#home img{
+    width: 150px;
+}
+
+#projetos img{
+    width: 360px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+section {
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+#home {
+    text-align: center;
+}
+
+#home img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+#projetos .card {
+    display: inline-block;
+    width: 45%;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#projetos .card img {
+    max-width: 100%;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    #projetos .card {
+        width: 100%;
+    }
+}
